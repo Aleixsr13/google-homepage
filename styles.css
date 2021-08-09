@@ -1,36 +1,124 @@
-.googleImg{
-    display: block;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    font-family: arial;
+    line-height: 1.6;
+    /* footer support */
+    margin-bottom: 100px;
+  }
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
-.searchBar{
+
+.nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    justify-content: flex-end;
+    font: 13px/27px Arial;
+    gap: 10px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-.topLinks {
-    display: block;
-    float: right;
-  }
-
-.topLinks a {
-    display: block;
+.top-links {
     color: rgba(0,0,0,0.87);
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   }
 
-.topLinks a:hover {
+.top-links:hover {
     text-decoration: underline;
-  }
+  }  
+
+.top-links-apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.button-apps {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url('https://raw.githubusercontent.com/Aleixsr13/google-homepage/main/images/google-apps.png');
+    opacity: 0.6;
+}
+
+.top-links-apps:hover {
+    background-color: #F0F0F0;
+}
+
+.button-sign-in {
+    color: #FFF;
+    background: #1a73e8;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 14px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.button-sign-in:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 63vh;
+    min-height: 300px;
+    margin-top: 50px;
+}
+
+.google-logo{
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 584px;
+    height: 46px;
+    padding: 10px;    
+    border-radius: 30px;
+}
+
+.search-bar:hover,
+.search-bar:focus-within {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-icon{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    opacity: 0.6;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;  
+}
+
+
+.mic-button{
+    width: 24px;
+    height: 24px;
+}
 
 .languages {
     color: #3c4043;
