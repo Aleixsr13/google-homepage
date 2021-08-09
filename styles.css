@@ -1,0 +1,130 @@
+.googleImg{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.topLinks {
+    display: block;
+    float: right;
+  }
+
+.topLinks a {
+    display: block;
+    color: rgba(0,0,0,0.87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.topLinks a:hover {
+    text-decoration: underline;
+  }
+
+.languages {
+    color: #3c4043;
+    display: inline-block;
+    line-height: 28px; 
+    text-align: center;
+    font-size: small;
+}
+
+.langLinks {
+    display: block;
+    float: left;
+    padding: 4px;
+}
+
+.langLinks a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.langLinks a:hover {
+    text-decoration: underline;
+}
+
+.searchBttnPos{
+    text-align: center;
+    padding-top: 18px;
+    height: 70px;
+}
+
+.searchBttn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchBttn:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.footer {
+    background: #f2f2f2;
+}
+
+.location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.footer1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.footerOptions1{
+    display: flex;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+.footer1 a:hover{
+    text-decoration: underline;
+}
+
+.footer2{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.footerOptions2{
+    display: flex;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+.footer2 a:hover{
+    text-decoration: underline;
+}
