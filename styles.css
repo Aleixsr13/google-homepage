@@ -1,7 +1,6 @@
 body {
     font-family: arial;
     line-height: 1.6;
-    /* footer support */
     margin-bottom: 100px;
   }
 
@@ -88,9 +87,10 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 584px;
-    height: 46px;
+    height: 25px;
     padding: 10px;    
     border-radius: 30px;
+    box-shadow: 0 0px 2px;
 }
 
 .search-bar:hover,
@@ -114,105 +114,98 @@ main {
     outline: none;  
 }
 
-
-.mic-button{
+.mic-icon{
     width: 24px;
     height: 24px;
+    margin-top: 3px;
 }
 
-.languages {
-    color: #3c4043;
-    display: inline-block;
-    line-height: 28px; 
-    text-align: center;
-    font-size: small;
+.mic-button{
+    background-color: unset;
 }
 
-.langLinks {
-    display: block;
-    float: left;
-    padding: 4px;
-}
-
-.langLinks a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-
-.langLinks a:hover {
-    text-decoration: underline;
-}
-
-.searchBttnPos{
+.search-buttons-pos{
     text-align: center;
     padding-top: 18px;
     height: 70px;
 }
 
-.searchBttn{
+.search-button{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: arial;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
-    line-height: 27px;
     height: 36px;
     min-width: 54px;
     text-align: center;
-    cursor: pointer;
-    user-select: none;
 }
 
-.searchBttn:hover{
+.search-button:hover{
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
 }
-.footer {
-    background: #f2f2f2;
-}
 
-.location {
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-    font-size: 15px;
-    color: rgba(0,0,0,.54);
-}
-.footer1{
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-    font-size: 15px;
-    color: rgba(0,0,0,.54);
-}
-
-.footerOptions1{
+.languages {
+    position: relative;
+    color: #3c4043;
     display: flex;
-    text-decoration: none;
-    color: rgba(0,0,0,.54);
+    font-size: small;
+    bottom: 0;
+    left: 0;
 }
 
-.footer1 a:hover{
+.langLinks {
+    display: block;
+    padding-left: 7px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.langLinks:hover {
     text-decoration: underline;
 }
 
-.footer2{
+footer {
+    display: flex;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    width: 99.8%;
+    padding: 2px;
+    background: #f2f2f2;
+}
+
+/*.location {
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: rgba(0,0,0,.54);
+}*/
+
+.left-footer {
+    display: flex;    
 }
 
-.footerOptions2{
+.right-footer{
     display: flex;
+    margin-right: 30px;
+}
+
+.footer-link{
     text-decoration: none;
     color: rgba(0,0,0,.54);
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
 }
 
-.footer2 a:hover{
+.footer-link:hover{
     text-decoration: underline;
 }
